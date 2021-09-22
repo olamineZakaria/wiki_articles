@@ -19,7 +19,7 @@ while True:
         end = input('> ') 
         if end == 'EXIT' or 'exit' or 'Exit':
             print('good bay')
-        continue
+        break
     else:
         print("Wrong choice!")
         break
